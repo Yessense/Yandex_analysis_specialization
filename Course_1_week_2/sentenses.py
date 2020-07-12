@@ -37,5 +37,5 @@ for i in range(len(sentences_s)):
 frame['Distance'] = distance
 print(frame.sort_values(by='Distance'))
 result = open('result1.txt', 'w')
-result.write('6 4')
+result.write('')
 
